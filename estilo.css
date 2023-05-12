@@ -1,4 +1,5 @@
 body {
+    background-color: rgb(0, 0, 0);
     background-image: url("/descarga.jpg");
 background-position: center ;
 background-repeat: no-repeat;
@@ -8,4 +9,53 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 div{
     margin-left: 25%;
     margin-right: 25%;
+}
+h2{
+    color: gold;
+}
+button1{
+    border: 10px;
+    border-radius: 30px;
+    background-color: rgb(184, 10, 242);
+    padding: 5px;
+}
+button2{
+    border: 10px;
+    border-radius: 30px;
+    background-color: rgb(240, 8, 8);
+    padding: 5px;
+}
+button3{
+    border: 10px;
+    border-radius: 30px;
+    background-color:black;
+    padding: 5px;
+}
+.flex-container{
+    display: flex;
+    background-color:brown;
+    border: 2px;
+    margin-left: 0%;   
+    margin-right: 70%;
+    
+    }
+    .flex-container div{
+        width: 100px;
+        color: aliceblue;
+        padding: 5px;
+        margin: 5px;
+        text-align: center;
+        border: 2px;
+    }
+.flex-container1{
+    background-image: url(/Captura\ de\ pantalla\ 2023-05-11\ 143029.png);width: 292px;
+    background-size: cover;
+    background-position: center center;
+    margin-left: 0%;
+}
+.flex-container1 div{
+    width: 100px;
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
 }
